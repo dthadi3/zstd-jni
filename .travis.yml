@@ -1,0 +1,10 @@
+language: c
+distro: focal
+os: linux
+arch:
+  - amd64
+  - ppc64le
+jdk: openjdk11
+script:
+  - ./sbt compile
+  - ./sbt jacoco
