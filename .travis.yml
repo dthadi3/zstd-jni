@@ -1,5 +1,5 @@
 language: c
-distro: focal
+dist: focal
 os: linux
 arch:
   - amd64
